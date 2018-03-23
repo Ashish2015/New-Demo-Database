@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  HalfTunesDemo
 //
-//  Created by Ashish Prajapati on 23/03/18.
-//  Copyright © 2018 Ashish Prajapati. All rights reserved.
+//  Created by Ashish LLC Prajapati on 23/03/18.
+//  Copyright © 2018 Ashish LLC Prajapati. All rights reserved.
 //
 
 import UIKit
@@ -19,7 +19,6 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 

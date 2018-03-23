@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  HalfTunesDemo
 //
-//  Created by Ashish Prajapati on 23/03/18.
-//  Copyright © 2018 Ashish Prajapati. All rights reserved.
+//  Created by Ashish LLC Prajapati on 23/03/18.
+//  Copyright © 2018 Ashish LLC Prajapati. All rights reserved.
 //
 
 import UIKit
@@ -13,9 +13,15 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    let tintColor =  UIColor(red: 242/255, green: 71/255, blue: 63/255, alpha: 1)
+    var backgroundSessionCompletionHandler: (() -> Void)?
+    var databaseManager = DatabaseManager()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        customizeAppearance()
+        databaseManager.createCopyOfDatabaseIfNeeded()
+
         // Override point for customization after application launch.
         return true
     }
@@ -44,6 +50,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.saveContext()
     }
 
+    
+    func application(_ application: UIApplication, handleEventsForBackgroundURLSession identifier: String, completionHandler: @escaping () -> Void) {
+        backgroundSessionCompletionHandler = completionHandler
+    }
+    
+    // MARK - App Theme Customization
+    
+    private func customizeAppearance() {
+        window?.tintColor = tintColor
+        UISearchBar.appearance().barTintColor = tintColor
+        UINavigationBar.appearance().barTintColor = tintColor
+        UINavigationBar.appearance().tintColor = UIColor.white
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey(rawValue: NSAttributedStringKey.foregroundColor.rawValue):UIColor.white]
+    }
+    
     // MARK: - Core Data stack
 
     lazy var persistentContainer: NSPersistentContainer = {

@@ -15,6 +15,20 @@
 		BC715D1720656EAE00417B15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC715D1520656EAE00417B15 /* LaunchScreen.storyboard */; };
 		BC715D2220656EAE00417B15 /* HalfTunesDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC715D2120656EAE00417B15 /* HalfTunesDemoTests.swift */; };
 		BC715D2D20656EAE00417B15 /* HalfTunesDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC715D2C20656EAE00417B15 /* HalfTunesDemoUITests.swift */; };
+		BC715D462065700F00417B15 /* SearchVC+SearchBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC715D3B2065700E00417B15 /* SearchVC+SearchBarDelegate.swift */; };
+		BC715D472065700F00417B15 /* SearchVC+URLSessionDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC715D3C2065700E00417B15 /* SearchVC+URLSessionDelegates.swift */; };
+		BC715D482065700F00417B15 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC715D3D2065700E00417B15 /* SearchViewController.swift */; };
+		BC715D492065700F00417B15 /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC715D3F2065700E00417B15 /* DownloadService.swift */; };
+		BC715D4A2065700F00417B15 /* QueryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC715D402065700E00417B15 /* QueryService.swift */; };
+		BC715D4B2065700F00417B15 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC715D422065700E00417B15 /* Download.swift */; };
+		BC715D4C2065700F00417B15 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC715D432065700E00417B15 /* Track.swift */; };
+		BC715D4D2065700F00417B15 /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC715D452065700F00417B15 /* TrackCell.swift */; };
+		BC715D50206570CA00417B15 /* StoryboardSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC715D4F206570CA00417B15 /* StoryboardSupport.swift */; };
+		BC715D54206571F300417B15 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC715D52206571F300417B15 /* DatabaseManager.swift */; };
+		BC715D55206571F300417B15 /* Track.db in Resources */ = {isa = PBXBuildFile; fileRef = BC715D53206571F300417B15 /* Track.db */; };
+		BC715D5B206576C200417B15 /* CommonMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC715D5A206576C200417B15 /* CommonMethods.swift */; };
+		BC715D5F206579CD00417B15 /* TrackRecords+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC715D5D206579CD00417B15 /* TrackRecords+CoreDataClass.swift */; };
+		BC715D60206579CD00417B15 /* TrackRecords+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC715D5E206579CD00417B15 /* TrackRecords+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +63,22 @@
 		BC715D2820656EAE00417B15 /* HalfTunesDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalfTunesDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC715D2C20656EAE00417B15 /* HalfTunesDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfTunesDemoUITests.swift; sourceTree = "<group>"; };
 		BC715D2E20656EAE00417B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC715D3B2065700E00417B15 /* SearchVC+SearchBarDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SearchVC+SearchBarDelegate.swift"; sourceTree = "<group>"; };
+		BC715D3C2065700E00417B15 /* SearchVC+URLSessionDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SearchVC+URLSessionDelegates.swift"; sourceTree = "<group>"; };
+		BC715D3D2065700E00417B15 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		BC715D3F2065700E00417B15 /* DownloadService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadService.swift; sourceTree = "<group>"; };
+		BC715D402065700E00417B15 /* QueryService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryService.swift; sourceTree = "<group>"; };
+		BC715D422065700E00417B15 /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
+		BC715D432065700E00417B15 /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		BC715D452065700F00417B15 /* TrackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
+		BC715D4F206570CA00417B15 /* StoryboardSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoryboardSupport.swift; path = HalfTunesDemo/StoryboardSupport.swift; sourceTree = SOURCE_ROOT; };
+		BC715D52206571F300417B15 /* DatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		BC715D53206571F300417B15 /* Track.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Track.db; sourceTree = "<group>"; };
+		BC715D572065725300417B15 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		BC715D582065726F00417B15 /* Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridge-Header.h"; sourceTree = "<group>"; };
+		BC715D5A206576C200417B15 /* CommonMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonMethods.swift; sourceTree = "<group>"; };
+		BC715D5D206579CD00417B15 /* TrackRecords+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TrackRecords+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BC715D5E206579CD00417B15 /* TrackRecords+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TrackRecords+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +113,7 @@
 				BC715D2020656EAE00417B15 /* HalfTunesDemoTests */,
 				BC715D2B20656EAE00417B15 /* HalfTunesDemoUITests */,
 				BC715D0720656EAE00417B15 /* Products */,
+				BC715D562065725200417B15 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +130,19 @@
 		BC715D0820656EAE00417B15 /* HalfTunesDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BC715D5C2065797500417B15 /* CoreData Classes */,
+				BC715D59206576C200417B15 /* Common */,
+				BC715D51206571F300417B15 /* DatabaseManager */,
+				BC715D3A2065700E00417B15 /* Controller */,
+				BC715D412065700E00417B15 /* Model */,
+				BC715D3E2065700E00417B15 /* Networking */,
+				BC715D442065700F00417B15 /* View */,
 				BC715D0920656EAE00417B15 /* AppDelegate.swift */,
 				BC715D0B20656EAE00417B15 /* ViewController.swift */,
 				BC715D0D20656EAE00417B15 /* Main.storyboard */,
-				BC715D1320656EAE00417B15 /* Assets.xcassets */,
-				BC715D1520656EAE00417B15 /* LaunchScreen.storyboard */,
+				BC715D4F206570CA00417B15 /* StoryboardSupport.swift */,
 				BC715D1820656EAE00417B15 /* Info.plist */,
+				BC715D4E2065702700417B15 /* Supporting Files */,
 				BC715D1020656EAE00417B15 /* HalfTunesDemo.xcdatamodeld */,
 			);
 			path = HalfTunesDemo;
@@ -126,6 +164,86 @@
 				BC715D2E20656EAE00417B15 /* Info.plist */,
 			);
 			path = HalfTunesDemoUITests;
+			sourceTree = "<group>";
+		};
+		BC715D3A2065700E00417B15 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC715D3B2065700E00417B15 /* SearchVC+SearchBarDelegate.swift */,
+				BC715D3C2065700E00417B15 /* SearchVC+URLSessionDelegates.swift */,
+				BC715D3D2065700E00417B15 /* SearchViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = SOURCE_ROOT;
+		};
+		BC715D3E2065700E00417B15 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				BC715D3F2065700E00417B15 /* DownloadService.swift */,
+				BC715D402065700E00417B15 /* QueryService.swift */,
+			);
+			path = Networking;
+			sourceTree = SOURCE_ROOT;
+		};
+		BC715D412065700E00417B15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC715D422065700E00417B15 /* Download.swift */,
+				BC715D432065700E00417B15 /* Track.swift */,
+			);
+			path = Model;
+			sourceTree = SOURCE_ROOT;
+		};
+		BC715D442065700F00417B15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC715D452065700F00417B15 /* TrackCell.swift */,
+			);
+			path = View;
+			sourceTree = SOURCE_ROOT;
+		};
+		BC715D4E2065702700417B15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC715D1320656EAE00417B15 /* Assets.xcassets */,
+				BC715D1520656EAE00417B15 /* LaunchScreen.storyboard */,
+				BC715D582065726F00417B15 /* Bridge-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC715D51206571F300417B15 /* DatabaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				BC715D52206571F300417B15 /* DatabaseManager.swift */,
+				BC715D53206571F300417B15 /* Track.db */,
+			);
+			path = DatabaseManager;
+			sourceTree = SOURCE_ROOT;
+		};
+		BC715D562065725200417B15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC715D572065725300417B15 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC715D59206576C200417B15 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BC715D5A206576C200417B15 /* CommonMethods.swift */,
+			);
+			path = Common;
+			sourceTree = SOURCE_ROOT;
+		};
+		BC715D5C2065797500417B15 /* CoreData Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BC715D5D206579CD00417B15 /* TrackRecords+CoreDataClass.swift */,
+				BC715D5E206579CD00417B15 /* TrackRecords+CoreDataProperties.swift */,
+			);
+			path = "CoreData Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC715D1720656EAE00417B15 /* LaunchScreen.storyboard in Resources */,
+				BC715D55206571F300417B15 /* Track.db in Resources */,
 				BC715D1420656EAE00417B15 /* Assets.xcassets in Resources */,
 				BC715D0F20656EAE00417B15 /* Main.storyboard in Resources */,
 			);
@@ -262,8 +381,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC715D4B2065700F00417B15 /* Download.swift in Sources */,
+				BC715D4C2065700F00417B15 /* Track.swift in Sources */,
+				BC715D60206579CD00417B15 /* TrackRecords+CoreDataProperties.swift in Sources */,
+				BC715D54206571F300417B15 /* DatabaseManager.swift in Sources */,
+				BC715D482065700F00417B15 /* SearchViewController.swift in Sources */,
+				BC715D492065700F00417B15 /* DownloadService.swift in Sources */,
+				BC715D5F206579CD00417B15 /* TrackRecords+CoreDataClass.swift in Sources */,
+				BC715D5B206576C200417B15 /* CommonMethods.swift in Sources */,
 				BC715D0C20656EAE00417B15 /* ViewController.swift in Sources */,
+				BC715D4D2065700F00417B15 /* TrackCell.swift in Sources */,
 				BC715D0A20656EAE00417B15 /* AppDelegate.swift in Sources */,
+				BC715D4A2065700F00417B15 /* QueryService.swift in Sources */,
+				BC715D50206570CA00417B15 /* StoryboardSupport.swift in Sources */,
+				BC715D472065700F00417B15 /* SearchVC+URLSessionDelegates.swift in Sources */,
+				BC715D462065700F00417B15 /* SearchVC+SearchBarDelegate.swift in Sources */,
 				BC715D1220656EAE00417B15 /* HalfTunesDemo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +567,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appInfo.HalfTunesDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ashishprajapati/Library/Autosave Information/HalfTunesDemo/HalfTunesDemo/Supporting Files/Bridge-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,6 +582,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appInfo.HalfTunesDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ashishprajapati/Library/Autosave Information/HalfTunesDemo/HalfTunesDemo/Supporting Files/Bridge-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

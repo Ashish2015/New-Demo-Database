@@ -2,8 +2,8 @@
 //  HalfTunesDemoUITests.swift
 //  HalfTunesDemoUITests
 //
-//  Created by Ashish Prajapati on 23/03/18.
-//  Copyright © 2018 Ashish Prajapati. All rights reserved.
+//  Created by Ashish LLC Prajapati on 23/03/18.
+//  Copyright © 2018 Ashish LLC Prajapati. All rights reserved.
 //
 
 import XCTest
